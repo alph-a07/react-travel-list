@@ -13,9 +13,10 @@ html {
 body {
     font-size: 2.4rem;
     font-family: sans-serif;
-    color: #5a3e2b;
+    color: #34495e; /* Dark blue-grey for text */
     font-family: "Quicksand";
     font-weight: 500;
+    background-color: #f0f8ff; /* Alice blue for body background */
 }
 
 .app {
@@ -23,22 +24,24 @@ body {
     height: 100vh;
     display: grid;
     grid-template-rows: auto auto 1fr auto;
+    background-color: #f0f8ff; /* Alice blue for a fresh look */
 }
 
 h1 {
     text-align: center;
-    background-color: #f4a226;
+    background-color: #ff6347; /* Tomato for header */
     font-family: "Monoton";
     font-size: 8rem;
     text-transform: uppercase;
     font-weight: 400;
     word-spacing: 30px;
     letter-spacing: -5px;
+    color: #fff; /* White text for header */
     padding: 2.4rem 0;
 }
 
 .add-form {
-    background-color: #e5771f;
+    background-color: #ffa07a; /* Light salmon for add form background */
     padding: 2.8rem 0;
     display: flex;
     align-items: center;
@@ -49,13 +52,14 @@ h1 {
 h3 {
     margin-right: 1.6rem;
     font-size: 2.4rem;
+    color: #34495e; /* Dark blue-grey for subheader */
 }
 
 button,
 select,
 input {
-    background-color: #ffebb3;
-    color: #5a3e2b;
+    background-color: #fff; /* White for form elements */
+    color: #34495e; /* Dark blue-grey for text */
     font-family: inherit;
     border: none;
     border-radius: 10rem;
@@ -67,14 +71,15 @@ input {
 
 .add-form button {
     text-transform: uppercase;
-    background-color: #76c7ad;
+    background-color: #32cd32; /* Lime green for add button */
+    color: #fff; /* White text for button */
+    border: none;
 }
 
 .list {
-    background-color: #5a3e2b;
-    color: #ffebb3;
+    background-color: #20b2aa; /* Light sea green for list background */
+    color: #fff; /* White for text */
     padding: 4rem 0;
-
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -89,13 +94,15 @@ input {
     font-size: 1.4rem;
     font-weight: 700;
     margin: 0 0.8rem;
+    background-color: #ffb6c1; /* Light pink for actions */
+    color: #34495e; /* Dark blue-grey for text */
+    border: none;
 }
 
 .list ul {
     list-style: none;
     width: 80%;
     overflow: visible;
-
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1.2rem;
@@ -107,12 +114,17 @@ input {
     display: flex;
     align-items: center;
     gap: 1.2rem;
+    background-color: #ffefd5; /* Papaya whip for list items */
+    padding: 1.6rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    color: #34495e; /* Dark blue-grey for text */
 }
 
 input[type="checkbox"] {
     height: 2rem;
     width: 2rem;
-    accent-color: #e5771f;
+    accent-color: #32cd32; /* Lime green for checkbox */
 }
 
 .list li button {
@@ -122,10 +134,12 @@ input[type="checkbox"] {
     font-size: 1.8rem;
     padding: 0.8rem;
     transform: translateY(2px);
+    color: #ff4500; /* Orange red for delete button */
 }
 
 .stats {
-    background-color: #76c7ad;
+    background-color: #87ceeb; /* Sky blue for stats background */
+    color: #fff; /* White text for stats */
     text-align: center;
     font-weight: 700;
     padding: 3.2rem 0;
