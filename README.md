@@ -44,25 +44,12 @@ Remember, you don’t have to eject to use the app. The default setup is perfect
 
 This travel checklist app comes packed with useful features to make your travels stress-free:
 
-### ✏️ Adding Items
-
-Easily add items to your checklist to ensure you don’t forget anything important.
-
-### 🔢 Deciding Number of Items
-
-Specify the quantity of each item you need for your trip.
-
-### ✅ Checking Items
-
-Mark items as checked when they’re packed, keeping you organized and on track.
-
-### ❌ Removing Items
-
-Effortlessly remove items from your list as needed.
-
-### 📊 Viewing List Statistics
-
-Get a clear overview of your checklist with statistics on packed and unpacked items.
+- ✏️ Adding Items
+- 🔢 Deciding Number of Items
+- ✅ Checking Items
+- ❌ Removing Items
+- 📊 Viewing List Statistics
+- 🧹 Clear the list at once
 
 ## 🧳 Ready to Get Organized?
 
